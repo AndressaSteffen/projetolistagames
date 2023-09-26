@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1054240555268",
+    "project_id": "listagames-4bc93",
+    "storage_bucket": "listagames-4bc93.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1054240555268:android:9abf49b37e55652d19d051",
+        "android_client_info": {
+          "package_name": "com.example.listagames"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAYkznhqriBNVFhp5iBGPRXiND8-Wcay70"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

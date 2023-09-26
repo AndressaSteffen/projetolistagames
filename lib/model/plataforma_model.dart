@@ -1,20 +1,20 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
 
-class Platform {
+class Plataforma {
   final String id;
   final String name;
   final String logoUrl;
 
-  Platform({
+  Plataforma({
     required this.id,
     required this.name,
     required this.logoUrl,
   });
 
-  // Cria uma instância de Platform
-  factory Platform.fromSnapshot(DocumentSnapshot doc) {
+  // Cria uma instância de Plataforma
+  factory Plataforma.fromSnapshot(DocumentSnapshot doc) {
     final data = doc.data() as Map<String, dynamic>;
-    return Platform(
+    return Plataforma(
       id: doc.id,
       name: data['name'] ?? '',
       logoUrl: data['logoUrl'] ?? '', 
